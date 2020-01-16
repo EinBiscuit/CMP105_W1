@@ -20,5 +20,18 @@ private:
 	sf::RenderWindow* window;
 
 	sf::RectangleShape rect;
+	sf::RectangleShape rectRed;
+	sf::RectangleShape rectBlue;
+	sf::RectangleShape rectGreen;
+
+	sf::CircleShape ball;
+	sf::Vector2f move;
+	bool top;
+	
+
+
 	sf::CircleShape circle;
+
+	sf::Font font;
+	sf::Text text;
 };
